@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(green,yellow,skyblue);
+}
+.weather-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    border-radius: 10px;
+   background: white;
+   width: 30%;
+
+}
+.heading{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+#location{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 5px;
+
+}
+#get-location{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+#city{
+    font-size: 18px;
+    font-weight: 600;
+}
+#date{
+    color: red;
+
+}
+
+#temp{
+    font-weight: 600;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#weather{
+    color: grey;
+}
+#speed{
+    color: red;
+}
